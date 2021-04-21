@@ -2,8 +2,8 @@
 #include <SDL2/SDL.h>
 #include "constants.h"
 
-SDL_Window *window = NULL;
-SDL_Renderer *renderer = NULL;
+SDL_Window* window = NULL;
+SDL_Renderer* renderer = NULL;
 int isGameRunning = FALSE;
 
 int initializeWindow()
